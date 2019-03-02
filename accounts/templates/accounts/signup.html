@@ -2,13 +2,17 @@
 
 {% block content %}
 
+
+<br/>
+<br/>
+<br/>
+<br/>
 {% if error %}
 {{ error }}
 
 <br/>
 <br/>
 {% endif %}
-
 <h1>Sign up!</h1>
 
 <form method="POST" action ="{% url 'signup' %}">
